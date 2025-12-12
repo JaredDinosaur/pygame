@@ -1347,7 +1347,7 @@ def dungeon():
                     print("Let not my secret seal your tomb")
                     print("Utter the name of the very second room.")
                     print("")
-                    code = input("What do you say?")
+                    code = input("What do you say? ")
                     
                     code = code.lower()
 
@@ -1370,11 +1370,11 @@ def dungeon():
                         print("You have unlocked hard mode. Good luck!")
                         print("A blinding glow surrounds you...")
                         print("")
-                        sl(2)
+                        sl(4)
                         print("\n"*100)
                     else:
                         print("")
-                        print("Your words echo upon deaf ears. ")
+                        print("Your words echo upon deaf ears.")
                         print("")
 
                 else:
