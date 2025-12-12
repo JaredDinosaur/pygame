@@ -1353,7 +1353,7 @@ def dungeon():
 
                     if code == "cliff":
                         dur = 0
-                        apples = 0
+                        apples = 4
                         nextroom = "cave"
                         maxhp += 10
                         hp = maxhp - 20
